@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Doce Perfume</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <section class="top-section">
+            <header class="main-header">
+                <div class="container">
+                    <div class="logo-wrapper">
+                        <img src="logo.png" style="width: 90%;"/>
+                    </div>
+                </div>
+            </header>
+            <nav class="main-nav">
+                <div class="container">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="quemsomos.html">Quem Somos</a></li>
+                        <li><a href="perfumeMas.html">Masculino</a></li>
+                        <li><a href="perfumeFem.html">Femenino</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section class="contact site-section">
+            <div class="container">
+                <h1>Contato</h1>
+                <p>Entre em contato conosco e contrate nossos serviços que são muito fora da curva</p>
+
+                <div class="form-wrapper">
+                    <div id="erros">
+
+                    </div>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label>Digite seu nome</label>
+                            <input type="text" name="name" id="name" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Digite seu email</label>
+                            <input type="email" name="email" id="email" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label>Especifique sua necessidade</label>
+                            <textarea name="necessity" id="necessity" class="form-control" ></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="button" data-batata="batata" id="submitButton">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+                </div>
+           </div>
+        </section>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
